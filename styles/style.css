@@ -179,3 +179,30 @@ background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 
     border-radius: 16px;
 background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
+/* section three start */
+.section-three{
+    width: 1140px;
+height: 775px;
+margin-left: 148px;
+ margin-right: 152px;
+margin-top: 90px;
+margin-bottom: 2130px;
+}
+.heading-three{
+    width: 852px;
+height: 113px;
+margin-left: 144px;
+margin-right: 144px;
+}
+.zero-to-career{
+    width: 1140px;
+height: 614px;
+
+}
+iframe{
+    width: 1076px;
+height: 550px;
+margin:32px;
+border-radius: 16px;
+
+}
