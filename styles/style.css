@@ -1,117 +1,181 @@
+.azeret-mono-normal {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
 
-
-.azeret-mono-normal{
-  font-family: "Azeret Mono", monospace;
-  font-optical-sizing: auto;
-  
-  font-style: normal;
+    font-style: normal;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
+
 /* section-one css start */
 
-.section-one{
+.section-one {
     background-image: url('../assets/Hero-bg.png');
     height: 652px;
     /* width: 1440px; */
-    
+
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
-.image-one{
+
+.image-one {
     text-align: center;
 
 }
-.paragraph-one{
+
+.paragraph-one {
     width: 852px;
     height: 52px;
     text-align: center;
     margin: 24px 0px;
     color: rgb(13, 19, 33);
-font-size: 16px;
-font-weight: 400;
-opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
 
-    
+
 }
-.container{
+
+.container {
     width: 998px;
     height: 512px;
     margin: 26px 221px 44px 221px;
 }
-.heading-one{
+
+.heading-one {
     margin-top: 32px;
     color: rgb(13, 19, 33);
-font-size: 48px;
-font-weight: 800;
+    font-size: 48px;
+    font-weight: 800;
 }
-.btn{
-    
+
+.btn {
+
     text-align: center;
-    
-    
+
+
 }
-.btn-container{
-    padding:21px 24px 21px 24px;
+
+.btn-container {
+    padding: 21px 24px 21px 24px;
     border-radius: 8px;
     background-color: rgb(13, 19, 33);
     color: rgb(255, 255, 255);
-font-size: 20px;
-font-weight: 600;
-text-align: center;
-    
-}
-/* section two start */
-.section-two{
-    width: 1140px;
-height: 1395px;
-border: 1px solid;
-margin: 80px auto;
-}
-.development{
-    width: 946px;
-height: 1235px;
-margin: 80px auto;
-border: 1px solid;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
 
 }
-.paragraph-two{
+
+/* section two start */
+.section-two {
+    width: 1140px;
+    height: 1395px;
+    margin: 80px auto;
+    border-radius: 16px;
+background: rgba(13, 19, 33, 0.02);
+}
+
+.development {
+    width: 946px;
+    height: 1235px;
+    margin: 80px auto;
+
+}
+
+.paragraph-two {
     width: 852px;
     height: 115px;
-    border: 1px solid;
+    
     margin: 0px 47px 48px 47px;
 
-}
-.coding{
-    width: 946px;
-height: 336px;
-border: 1px solid;
-margin: 32px 0;
 
 }
-.coding-one{
+
+.coding {
+    width: 946px;
+    height: 336px;
+    
+    margin: 32px 0;
+    border-radius: 16px;
+background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+
+}
+
+.coding-one {
     width: 850px;
     height: 240px;
     margin: 48px;
-    border: 1px solid;
+    
     display: flex;
     justify-content: space-between;
 
 }
-.coding-two{
+
+.coding-two {
     width: 477px;
-height: 219px;
-margin: 10px 0;
-    
-    border: 1px solid;
+    height: 219px;
+    margin: 10px 0;
 
 }
-.coding-three{
-    width: 274px;
-height: 240px;
-    border: 1px solid;
 
+.coding-three {
+    width: 274px;
+    height: 240px;
+
+}
+
+.coding-head {
+    width: 477px;
+    height: 72px;
+    color: rgba(13, 19, 33);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.coding-paragraph {
+    width: 468px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.sub-paragraph {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    width: 852px;
+    height: 52px;
+}
+
+.development-heading {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    width: 852px;
+    height: 37px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.coding-btn {
+    width: 171px;
+    height: 47px;
+    border: 1px solid rgb(13, 19, 33);
+    color: rgb(13, 19, 33);
+
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.coding-backward{
+    border-radius: 16px;
+background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
