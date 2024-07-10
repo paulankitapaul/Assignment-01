@@ -64,3 +64,54 @@ font-weight: 600;
 text-align: center;
     
 }
+/* section two start */
+.section-two{
+    width: 1140px;
+height: 1395px;
+border: 1px solid;
+margin: 80px auto;
+}
+.development{
+    width: 946px;
+height: 1235px;
+margin: 80px auto;
+border: 1px solid;
+
+}
+.paragraph-two{
+    width: 852px;
+    height: 115px;
+    border: 1px solid;
+    margin: 0px 47px 48px 47px;
+
+}
+.coding{
+    width: 946px;
+height: 336px;
+border: 1px solid;
+margin: 32px 0;
+
+}
+.coding-one{
+    width: 850px;
+    height: 240px;
+    margin: 48px;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+
+}
+.coding-two{
+    width: 477px;
+height: 219px;
+margin: 10px 0;
+    
+    border: 1px solid;
+
+}
+.coding-three{
+    width: 274px;
+height: 240px;
+    border: 1px solid;
+
+}
